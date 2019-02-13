@@ -19,8 +19,11 @@
 
 ## texstudio的配置
 在`选项`中选`设置TeXStudio`,可以先把语言调好(选择zh-CN).
+
 选择`构建`,把默认编辑器改成`XeLaTeX`.
+
 选择`命令`,在XeLaTeX中添加`-shell-escape -8bit`
+
 然后就可以了.
 
 ## 参考资料
