@@ -3,8 +3,8 @@
 ```
 使用图形化安装：sudo apt install perl-tk
 将texlive.iso复制到home下
-使用mount命令挂载到mnt:sudo mount -o loop home/sycstudio/texlive.iso /mnt
-移动到mnt下
+使用mount命令挂载到mnt:sudo mount -o loop texlive.iso /mnt
+移动到mnt下: cd /mnt
 运行（以图形化）：sudo ./install-tl -gui
 按照步骤安装
 选择安装方案。初级用户推荐直接选择 scheme-full 全部安装。如果磁盘空间有限也可以选择small或者median模式。高级用户可以选择scheme-custom进一步定制。这里我选择了scheme-custom，并且在“进一步定制”里去掉了自己不会用到的一些语言包和ConTeXt相关组件。
